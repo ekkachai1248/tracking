@@ -12,7 +12,6 @@
 </head>
 <body>
   <div id="map"></div>
-
   <script>
     const map = L.map('map').setView([16.1663989, 103.174688], 15);
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
